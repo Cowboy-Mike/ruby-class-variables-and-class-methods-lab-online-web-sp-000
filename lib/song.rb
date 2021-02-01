@@ -15,7 +15,7 @@ end
   @name = song_name
   @genre = genre_type
   @@count += 1 
-  @@artist << @artist
+  @@artist << artist_name
   end
 
 end
