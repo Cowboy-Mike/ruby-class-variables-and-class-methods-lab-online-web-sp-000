@@ -28,5 +28,6 @@ def self.genres
 end
 
 def self.genre_count
+  genre_count = {}
   
 end
