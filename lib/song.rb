@@ -20,7 +20,7 @@ end
   end
 
 def self.artists
-  @@artist.uniq 
+  artist.uniq 
 end
 
 end
