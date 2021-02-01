@@ -23,7 +23,7 @@ def self.artists
   @@artists.uniq 
 end
 
-def self.genre_type
+def self.genre
   @@genres.uniq
 end
 
