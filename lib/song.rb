@@ -4,6 +4,8 @@ attr_accessor :name, :artist, :genre
 
 @@count = 0 
 
+@@artists = []
+
 def self.count 
   @@count
 end
@@ -13,6 +15,7 @@ end
   @name = song_name
   @genre = genre_type
   @@count += 1 
+  
   end
 
 end
