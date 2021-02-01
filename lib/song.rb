@@ -5,6 +5,8 @@ attr_accessor :name, :artist, :genre
 @@count = 0 
 
 def self.count 
+  @@count
+end
 
   def initialize (song_name, artist_name, genre_type)
   @artist = artist_name
