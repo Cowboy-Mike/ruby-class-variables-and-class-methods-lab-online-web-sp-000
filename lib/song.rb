@@ -19,5 +19,8 @@ end
   @@genres << genre_type
   end
 
+def self.artists
+  @@artist.uniq 
+end
 
 end
