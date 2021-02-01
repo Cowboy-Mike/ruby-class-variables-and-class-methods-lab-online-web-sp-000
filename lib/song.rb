@@ -6,3 +6,4 @@ def initialize (song_name, artist_name, genre_type)
   song = song_name
   genre = genre_type
 end
+end
